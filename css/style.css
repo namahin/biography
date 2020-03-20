@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*****************************************************/
+/* Home Page */
+/*****************************************************/
+.home-page {
+    position: relative;
+    height: 100vh;
+    background: #fbfbfb;
+}
+
+.home-page-contant {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 590px;
+}
+
+.home-page-contant h1 {
+    color: #17a2b8;
+}
+
+.home-page-contant p {
+    color: gray;
+    /*! line-height: 18px; */
+    margin-bottom: 5px;
+    opacity: 0.8;
+    padding: 5px 50px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-bottom: 15px;
+}
+
+.home-page-contant p span {
+    padding: 0 4px;
+    font-weight: bold;
+}
+
+/* .home-page-contant a{}
+.home-page-contant a button{} */
+.home-page-contant a button i {
+    margin-left: 5px;
+}
+
+/*****************************************************/
+/* About Page */
+/*****************************************************/
+.about-page {
+    position: relative;
+}
+
+.cover-photo {
+    background: #008095;
+    height: 40vh;
+    position: fixed;
+    width: 100%;
+}
+
+.cover-photo h1 {
+    text-align: center;
+    padding-top: 9vh;
+    color: white;
+    letter-spacing: 2px;
+    font-family: Monotype Corsiva;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.curriculum-vitae {
+    padding: 62px;
+    border-radius: 2px;
+    position: absolute;
+    top: 25vh;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background: white;
+    width: 900px;
+    z-index: 1000;
+}
+
+.curriculum-vitae p {}
+
+.curriculum-vitae p b {}
+
+.curriculum-vitae table {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.curriculum-vitae table p b {}
+
+.curriculum-vitae table tbody {}
+
+.curriculum-vitae table tbody tr {}
+
+.curriculum-vitae table tbody tr th {
+    border: 1px solid #d1cbcb;
+}
+
+.curriculum-vitae table tbody tr td {
+    border: 1px solid #d1cbcb;
+}
+
+.curriculum-vitae ul {
+    overflow: hidden;
+    list-style: none;
+}
+
+.curriculum-vitae ul li {
+    float: left;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+.cv {
+    box-shadow: 0 0 15px #dddc;
+    width: 900px;
+    position: fixed;
+    height: 60vh;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+header {}
+
+header h3 {}
+
+header p {}
+
+header p b {}
+
+.info {}
+
+.info p {}
+
+.info p b {}
+
+.info table {}
+
+.info table tbody {
+    text-align: left;
+}
+
+.info table tbody tr {}
+
+.info table tbody tr td {
+    border: none;
+}
+
+.info table tbody tr td span {
+    padding: 0 5px;
+}
+
+footer {
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+footer p {}
+
+footer p i {}
+
+footer hr {}
+
+footer p b {}
+
+.signature {
+    text-align: center;
+}
+
+.signature p {
+    margin: 0;
+}
+
+.signature p i {
+    font-family: Monotype Corsiva;
+    font-size: 20px;
+}
+
+.signature hr {
+    margin: 0 auto;
+    background: gray;
+    width: 300px;
+}
+
+.next-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    text-align: center;
+}
+
+.next-btn a {
+    margin: 0;
+    font-size: 40px;
+    color: #008095;
+}
+
+.next-btn a i:hover {
+    font-size: 40px;
+    transition: cubic-bezier(1, -0.36, 1, -0.36);
+    transition: .5s;
+}
+
+.next-btn a i {}
+
+.pre-btn {
+    position: fixed;
+    bottom: 30px;
+    left: 40px;
+    text-align: center;
+}
+
+.pre-btn a {
+    margin: 0;
+    font-size: 40px;
+    color: #008095;
+}
+
+.pre-btn a i:hover {
+    font-size: 40px;
+    transition: cubic-bezier(1, -0.36, 1, -0.36);
+    transition: .5s;
+}
+
+.pre-btn a i {}
+
+/*****************************************************/
+/* Probidhan Page */
+/*****************************************************/
+.probidhan {color: grey;}
+
+.probidhan h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.probidhan h3 {
+    text-align: center;
+}
+
+.probidhan table {
+    margin-top: 15px;
+}
+
+.probidhan table tbody tr td a:hover {
+    color: #008095;
+    text-decoration: none;
+}
+
+/*****************************************************/
+/* Syllabus Page */
+/*****************************************************/
+.syllabus {}
+
+.cards {
+    background: #fafafa;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.cards p {
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 5px;
+    font-size: 18px;
+    margin: 0;
+    color: #545353;
+}
+
+.cards p b {}
+
+.cards ul {
+    margin: 0;
+    font-size: 15px;
+}
+
+.cards ul li {
+    float: none;
+    padding: 0;
+}
+.cards ul li b{}
+.cards ul li i {}
+
+.cards ul hr {
+    margin: 0;
+    margin-top: 4px;
+    color: #efefef;
+}
+
+.subject-code {font-size: 14px;color: gray;padding: 0 10px;}
+.total-number{text-align: right;color: grey;padding-right: 20px !important;}
